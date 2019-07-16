@@ -16,7 +16,7 @@
 title: Brian Steele
 email: gobriansteele@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  @gobriansteele, Engineer, Building great products by building great teams
+  @gobriansteele, Engineer. Building great products by building great teams. If I'm not in front of the computer, I'm probably outside on a bike or with my dog.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://gobriansteele.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gobriansteele

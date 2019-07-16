@@ -1,0 +1,12 @@
+<nav>
+    <a class='navPhoto' href="{{ "/" | absolute_url }}">
+
+    </a>
+    <div class='navWrapper'>
+        {% for page in site.pages %}
+            {% if page.title != 'home' %}
+                <a href="{{ page.url }}">{{ page.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>        
+</nav>

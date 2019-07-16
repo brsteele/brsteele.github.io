@@ -2,4 +2,23 @@
 layout: default
 ---
 
+<h1 class="headline">
+  {{ site.title | default: site.github.repository_name }}
+</h1>
+<p class="subHeading">
+  {{ site.description | default: site.github.project_tagline }}
+</p>
+<div class="linkContainer">
+  <a href="https://github.com/gobriansteele"
+    ><div class="github socialLink"></div
+  ></a>
+  <a href="https://twitter.com/gobriansteele"
+    ><div class="twitter socialLink"></div
+  ></a>
+  <a href="https://linkedin.com/in/gobriansteele"
+    ><div class="linkedIn socialLink"></div
+  ></a>
+  <a href="https://vsco.co/gobriango"><div class="vsco socialLink"></div></a>
+</div>
+
 {{ content }}
