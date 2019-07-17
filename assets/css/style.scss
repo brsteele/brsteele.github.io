@@ -45,6 +45,7 @@ nav {
 }
 
 .mainContentContainer {
+  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -58,6 +59,21 @@ nav {
   text-align: center;
   font-size: 72px;
   color: #000;
+}
+
+hr {
+  margin: 15px auto;
+  border-top: 2px solid #333;
+}
+
+hr.small {
+  width: 200px;
+  border-top: 4px solid #333;
+}
+
+hr.large {
+  width: 100%;
+  max-width: 600px;
 }
 
 .subHeading {
@@ -76,8 +92,18 @@ nav {
   width: 40px;
   background-repeat: no-repeat;
   background-size: cover;
-  &:not(last-child) {
+  &:not(:last-child) {
     margin-right: 15px;
+  }
+}
+
+.posts {
+  margin-top: 50px;
+  h2 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0;
   }
 }
 
@@ -95,4 +121,20 @@ nav {
 
 .vsco {
   background-image: url('{{ site.baseurl }}/assets/img/vsco.svg');
+}
+
+.mail {
+  background-image: url('{{ site.baseurl }}/assets/img/envelope.svg');
+}
+
+.postInfoWrapper {
+  display: flex;
+  margin-bottom: 10px;
+  p {
+    margin-right: 15px;
+  }
+}
+
+footer {
+  position: relative;
 }
