@@ -107,6 +107,10 @@ hr.large {
   }
 }
 
+.postContainer {
+  margin-bottom: 40px;
+}
+
 .github {
   background-image: url('{{ site.baseurl }}/assets/img/github.svg');
 }

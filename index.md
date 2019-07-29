@@ -8,7 +8,7 @@ title: home
 
 <div>
   {% for post in site.posts %}
-    <div>
+    <div class="postContainer">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <div class="postInfoWrapper">
         <p>{{post.date | date: '%B %d, %Y'}}</p>
