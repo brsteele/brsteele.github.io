@@ -11,3 +11,6 @@ permalink: /booklist/
 - Shoe Dog
 - Why We Sleep
 - Functional Lite JavaScript
+- Thinking in Systems
+- Skin in the Game
+- Today Will be Different
