@@ -7,14 +7,5 @@ title: home
 ---
 
 <div>
-  {% for post in site.posts %}
-    <div class="postContainer">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="postInfoWrapper">
-        <p>{{post.date | date: '%B %d, %Y'}}</p>
-        <p>Tags: {% for tag in post.tags %}<a href="{{site.baseurl}}">{{tag}}</a>{% endfor%}</p>
-      </div>
-      <p>{{ post.excerpt }}</p>
-    </div>
-  {% endfor %}
+  <h4>Coming soon...</h4>
 </div>
